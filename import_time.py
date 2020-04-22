@@ -1,9 +1,9 @@
 import time
 
-seconds = int(input("How many seconds do you want to countdown from ?"))
+seconds = int(input("How many seconds do you want start the countdown: ?"))
 
 for i in range(seconds):
-    print(str(seconds - i), "seconds remaining")
-    time.sleep(1)
+    print("You have", str(seconds - i), "seconds remaining")
+    time.sleep()
 
 print("Your time is up !!!")
